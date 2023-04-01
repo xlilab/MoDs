@@ -79,12 +79,12 @@ def plot_AUPRC(model_perf,output_file):
     #plot
     plt.figure()
     lw = 2
-    plt.figure(figsize=(10,10))#设置figure的宽、长
+    plt.figure(figsize=(10,10))
     plt.plot(recall, precision, color="red",
-             lw=lw,#折线图的线条宽度
-             label='AUPRC (area = %0.2f)' % prc_auc#图例
+             lw=lw,
+             label='AUPRC (area = %0.2f)' % prc_auc#legend
             ) 
-    plt.plot([0, 1], [1, 0], color="navy", lw=lw, linestyle='--')#对角线
+    plt.plot([0, 1], [1, 0], color="navy", lw=lw, linestyle='--')#diagonal line
     #x,y axis scale 
     plt.xlim([0.0, 1.0])
     plt.ylim([0.0, 1.0])
@@ -110,7 +110,7 @@ out_dosge.fillna(0,inplace = True)
 
 
 #Input
-X = copy.deepcopy(dosge_feature)#经过deepcopy的操作的不管是内层还是外层数据对象都拥有不同的地址空间，修改其中的值不会对两个对象都造成影响
+X = copy.deepcopy(dosge_feature)
 y = copy.deepcopy(out_dosge)
 #TrainingSet : TestSet = 4 : 1
 X_train,X_test,y_train,y_test = train_test_split(X,y,test_size = 0.2,random_state = SEED)
@@ -125,7 +125,7 @@ print("\n...... Training Model ......\n")
 
 # LightGBM params
 param_dict = {
-    "learning_rate":[0.1, 0.05, 0.02, 0.015, 0.01],#学习率
+    "learning_rate":[0.1, 0.05, 0.02, 0.015, 0.01],
     "num_leaves": range(10,36,5),# Maximum tree leaves for base learners.
     "max_depth" : [-1,2,3,4,5,10,20,25],#Maximum tree depth for base learners, <=0 means no limit.
     "min_data_in_leaf": range(1, 45, 2),#
@@ -146,7 +146,7 @@ param_dict = {
 }#参数列表
 
 #Initiate model
-model = lgb.LGBMClassifier()#创建一个分类器对象
+model = lgb.LGBMClassifier()
 #Adjust hyper-parameters with 5-fold cross validation
 rscv = RandomizedSearchCV(model,#
                           param_dict,#
