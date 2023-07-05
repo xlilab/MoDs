@@ -1,4 +1,4 @@
-# Tissue-specific dosage sensitivity map 
+# MoDs: A tissue-specific dosage sensitivity map 
 
 Welcome to the repository for the "An RNA-informed dosage sensitivity map reflects the intrinsic functional nature of genes" manuscript. Here, we systematically quantify dosage perturbations from cis-regulatory variants in the general population and report a tissue-specific dosage constraint map of autosomal protein coding genes.
 
