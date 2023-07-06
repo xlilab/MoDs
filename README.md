@@ -4,6 +4,6 @@ Welcome to the repository for the "An RNA-informed dosage sensitivity map reflec
 
 <a href="https://github.com/xlilab/mods/blob/main/Tissue-Specific%20Dosage%20Constraint%20Score.txt" title="tissue-specific dosage constraint score">RNA-informed dosage sensitivity map</a>
 
+![image](https://github.com/xlilab/MoDs/assets/7442902/1075837d-bff7-4c00-ab28-b3957a9c48f3)
 
-<img width="1061" alt="image" src="https://github.com/xlilab/mods/assets/7442902/45dbb77b-177f-41a5-860d-22258625e9bf">
 
