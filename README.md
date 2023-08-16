@@ -7,7 +7,7 @@ Welcome to the repository for the "An RNA-informed dosage sensitivity map reflec
 
 <a href="https://github.com/xlilab/MoDs/tree/main/results" title="tissue-specific dosage constraint score">Download full map</a>
 
-<a href="https://spbb.shinyapps.io/genesearch-test/" title="tissue-specific dosage constraint score">Online resource</a>
+<a href="https://xinlilab.shinyapps.io/MoDs" title="tissue-specific dosage constraint score">Online resource</a>
 
 ![image](https://github.com/xlilab/MoDs/assets/7442902/416272a4-72c3-4624-b09b-2662f34baa76)
 
