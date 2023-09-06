@@ -6,7 +6,7 @@ Citation: Dong, D., Shen, H., Wang, Z., Liu, J., Li, Z., Li, X. (2023). <a href=
 
 <a href="https://github.com/xlilab/MoDs/tree/main/results" title="tissue-specific dosage constraint score">Download full map</a>
 
-<a href="https://xinlilab.shinyapps.io/MoDs" title="tissue-specific dosage constraint score">Online resource</a>
+<a href="https://xinlilab.shinyapps.io/MoDs" title="tissue-specific dosage constraint score">Searchable web portal</a>
 
 ![image](https://github.com/xlilab/MoDs/assets/7442902/416272a4-72c3-4624-b09b-2662f34baa76)
 
